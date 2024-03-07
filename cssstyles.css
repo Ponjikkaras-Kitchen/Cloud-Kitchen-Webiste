@@ -23,7 +23,7 @@ html
 
 .contact_container{
     margin: 0 auto;
-    background-color:#20433c;
+    background-color:#f6f4f1;
 }
 
 .subcontainer{
@@ -44,3 +44,38 @@ html
     text-decoration: none;
     display: inline-block;
     }
+
+.special_carousal{
+    margin: 0 20% 0 20%; 
+    background-color:#d66f20;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;   
+    align-items: center;
+}
+
+/* .carousel-inner{
+    max-height: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto; /* Center align the images horizontally */
+    max-width: 50%; /* Ensure the images don't exceed their container's width */
+} */
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Customize caption background color */
+    color: white; /* Customize caption text color */
+  }
+
+.carousel-item img {
+    text-align: center;
+    margin: 0 auto; /* Center align the images horizontally */
+    max-width: 70%; /* Ensure the images don't exceed their container's width */
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
